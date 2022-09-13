@@ -9,4 +9,4 @@ if (x == 1) {
     print(msg2);
 }
 
-console.log(msg2);
+console.log(msg1);
