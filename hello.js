@@ -8,3 +8,5 @@ if (x == 1) {
 } else {
     print(msg2);
 }
+
+console.log(msg1);
