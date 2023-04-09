@@ -1,0 +1,34 @@
+{
+	"parent": "quest_giver:quest_0014_01b",
+	"reputation": 5,
+	"icon": "minecraft:enchanted_book",
+	"start": {
+		"title": {
+			"text": "Treinamento Básico"
+		},
+		"description": {
+			"text": "Volte depois de ter cumprido os requisitos - $(red)Mate 10 saqueadores$()."
+		}
+	},
+	"complete": {
+		"title": {
+			"text": "Treinamento Básico"
+		},
+		"description": {
+			"text": "Aqui, apenas abra o livro e aprenda a habilidade. Se você quiser obter mais livros de habilidades, eu sugeriria fazer um pouco do missões do guarda. Boa sorte em sua jornada."
+		}
+	},
+	"tasks": [{
+		"entity": "minecraft:pillager",
+		"id": "quest_giver:kill",
+		"times": 10
+	}],
+	"rewards": [{
+		"command": "/give @p epicfight:skillbook{skill:\"epicfight:roll\"}",
+		"id": "quest_giver:command"
+	},
+        {
+          "command": "/loot give @p loot minecraft:guildmaster0",
+          "id": "quest_giver:command"
+        }]
+}

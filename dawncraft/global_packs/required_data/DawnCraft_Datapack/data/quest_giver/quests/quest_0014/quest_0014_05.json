@@ -1,0 +1,48 @@
+{
+  "parent": "quest_giver:quest_0014_04",
+  "reputation": 10,
+  "icon": "minecraft:iron_sword",
+  "start": {
+    "title": {
+      "text": "Caminho para os Portadores dos Olhos"
+    },
+    "description": {
+      "text": "Nós temos muito pouca informação sobre o Cavaleiro Rober em seu estado atual, mas ele deve estar bastante enfraquecido desde a última guerra... Ah, lembre-se de trazer pérolas do ender. Ele tem um ataque nojento que só pode ser evitado por teletransporte."
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "Caminho para os Portadores dos Olhos"
+    },
+    "description": {
+      "text": "Uau, você derrotou o Cavaleiro Rober. Ele foi difícil? No passado, ele era um dos oponentes mais assustadores que você poderia enfrentar em um duelo, acho que a idade finalmente o alcançou. Bem, o próximo portador do olho é outro humano. Atualmente, ele vive pacificamente em sua fazenda... Aqui está o mapa da localização dele."
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "endrem:rogue_eye"
+      },
+      "id": "quest_giver:item_pickup",
+      "times": 1
+    }
+  ],
+  "rewards": [
+    {
+      "command": "/loot give @p loot minecraft:guildmaster3",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/pmmo admin @p add crafting level 1",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/pmmo admin @p add engineering level 1",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/advancement grant @p only simple_mobs:knight_rober_quest_complete",
+      "id": "quest_giver:command"
+    }    
+  ]
+}

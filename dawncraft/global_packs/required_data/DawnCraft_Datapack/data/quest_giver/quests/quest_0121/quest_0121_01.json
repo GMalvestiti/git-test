@@ -1,0 +1,39 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 16,
+  "icon": "minecraft:iron_pickaxe",
+  "start": {
+    "title": {
+      "text": "Mapa para o Guardião do End"
+    },
+    "description": {
+      "text": "Nada nessa vida é de graça, meu amigo. Você me pague 5 esmeraldas e eu darei a direção do Guardião do End para você."
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "Obrigado!"
+    },
+    "description": {
+      "text": "Muito bem, como dito, aqui está. Lembre-se, não abra este mapa aqui, apenas no End. Quem avisa amigo é!"
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "minecraft:emerald"
+      },
+      "id": "quest_giver:gift",
+      "times": 5
+    }
+  ],
+  "rewards": [
+    {
+      "item": {
+        "item": "simple_mobs:rolled_map_3"
+      },
+      "id": "quest_giver:item",
+      "times": 1
+    }
+  ]
+}

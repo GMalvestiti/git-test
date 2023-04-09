@@ -1,0 +1,13 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 4,
+  "icon": "minecraft:wheat_seeds",
+  "start": {
+    "title": {
+      "text": "Conselho"
+    },
+    "description": {
+      "text": "Minhas queridas plantações não têm crescido bem nestes dias... Você acha que pode me conseguir $(red)8 ossos$() para que eu possa fazer alguns fertilizantes?"
+    }
+  }
+}

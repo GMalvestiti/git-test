@@ -1,0 +1,12 @@
+{
+  "reputation": 0,
+  "icon": "minecraft:brewing_stand",
+  "start": {
+    "title": {
+      "text": "Ei!"
+    },
+    "description": {
+      "text": "Ei Aventureiro, você pode me conseguir $(red)5 carnes podres$()? Eu preciso delas para fazer poções."
+    }
+  }
+}

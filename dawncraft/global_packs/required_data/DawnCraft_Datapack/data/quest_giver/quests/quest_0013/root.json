@@ -1,0 +1,12 @@
+{
+  "reputation": 10,
+  "icon": "minecraft:white_wool",
+  "start": {
+    "title": {
+      "text": "Ei!"
+    },
+    "description": {
+      "text": "Você quer que eu te ensine como usar o rebolo? Vai custar 10 esmeraldas."
+    }
+  }
+}

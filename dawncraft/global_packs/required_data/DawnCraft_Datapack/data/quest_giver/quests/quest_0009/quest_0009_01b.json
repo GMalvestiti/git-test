@@ -1,0 +1,13 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 14,
+  "icon": "minecraft:book",
+  "start": {
+    "title": {
+      "text": "Pedido de Busca"
+    },
+    "description": {
+      "text": "Você poderia me ajudar a conseguir 4 bolsas de tinta?"
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "reputation": 16,
+  "icon": "minecraft:iron_pickaxe",
+  "start": {
+    "title": {
+      "text": "Ei!"
+    },
+    "description": {
+      "text": "Eu tenho uma história estranha para contar... você gostaria de me ouvir, aventureiro?"
+    }
+  }
+}

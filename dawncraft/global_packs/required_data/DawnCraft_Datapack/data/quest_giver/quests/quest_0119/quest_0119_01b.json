@@ -1,0 +1,11 @@
+{
+	"parent": "quest_giver:root",
+	"reputation": 16,
+	"icon": "minecraft:iron_pickaxe",
+	"start": {
+		"title": {
+			"text": "Coração de Dragão"
+		},
+		"description": "Eu me deparei com um minerador bem estranho um tempo atrás. Ele me ofereceu 2 orbes espirituais por um mapa para o monumento oceânico... Dei a ele o mapa e obtive esses orbes inúteis, agora estou tentando me livrar deles. Caro aventureiro, você poderia me dar o coração de um $(red)Dragão de Gelo$()? É muito importante para a minha pesquisa. Fique a vontade para pensar sobre isso."
+	}
+}

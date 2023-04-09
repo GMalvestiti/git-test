@@ -1,0 +1,36 @@
+{
+  "parent": "quest_giver:quest_0020_01b",
+  "reputation": 16,
+  "icon": "minecraft:iron_pickaxe",
+  "start": {
+    "title": {
+      "text": "Então?"
+    },
+    "description": {
+      "text": "Pode me buscar um pedaço de papel? Vou desenhar um mapa para você."
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "Obrigado!"
+    },
+    "description": {
+      "text": "Aqui está. Diga um oi para ele por mim."
+    }
+  },
+  "tasks": [
+     {
+      "item": {
+	 "item": "minecraft:paper"
+      },
+      "id": "quest_giver:gift",
+      "times": 1
+     }
+  ],
+  "rewards": [
+  {
+      "command": "/loot give @p loot minecraft:netherian1",
+      "id": "quest_giver:command"
+    }
+  ]
+}

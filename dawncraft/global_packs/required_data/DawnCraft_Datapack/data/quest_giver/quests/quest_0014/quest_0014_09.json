@@ -1,0 +1,43 @@
+{
+  "parent": "quest_giver:quest_0014_08",
+  "reputation": 10,
+  "icon": "minecraft:iron_sword",
+  "start": {
+    "title": {
+      "text": "O Fim do Caminho"
+    },
+    "description": {
+      "text": "O gigante de fogo havia desaparecido de nosso reino muitas luas atrás. Conseguimos extrair um nó de seu cabelo antes que ele partisse. Os grandes clérigos encantaram o item, que teoricamente permitirá que você invoque o gigante se oferecer o item no altar. Se você perder o nó de cabelo, combine uma carga de fogo com uma poção básica de resistência ao fogo em um suporte de poções para resumonar o item."
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "O Fim do Caminho"
+    },
+    "description": {
+      "text": "Bem, estou sem palavras... É isso, aventureiro. Você derrotou todos os portadores dos olhos. Se você já adquiriu 12 olhos, procure o portal para o End. Que Deus te acompanhe."
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "endrem:corrupted_eye"
+      },
+      "id": "quest_giver:item_pickup",
+      "times": 1
+    }
+  ],
+  "rewards": [
+    {
+      "command": "/addreputation reputation:village @p 10",
+      "id": "quest_giver:command"
+    },
+    {
+      "item": {
+        "item": "simple_mobs:giant_knot"
+      },
+      "id": "quest_giver:item",
+      "times": 1
+    }
+  ]
+}

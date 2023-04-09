@@ -1,0 +1,30 @@
+{
+  "parent": "quest_giver:quest_0001_01b",
+  "reputation": 5,
+  "icon": "minecraft:iron_ingot",
+  "start": {
+    "title": {
+      "text": "Me traga uma coisa!"
+    },
+    "description": {
+      "text": "Olá! Você já conseguiu $(red)4 barras de ferro$() para mim?"
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "Obrigado!"
+    },
+    "description": {
+      "text": "Obrigado! Agora finalmente serei capaz de fazer a armadura para aquele guarda... Ele não se calava sobre isso! Eu não tenho nada para você neste momento, mas juro que um dia vou te pagar de volta!"
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "minecraft:iron_ingot"
+      },
+      "id": "quest_giver:gift",
+      "times": 4
+    }
+  ]
+}

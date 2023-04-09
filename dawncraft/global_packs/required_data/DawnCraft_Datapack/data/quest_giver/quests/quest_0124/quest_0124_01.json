@@ -1,0 +1,37 @@
+{
+  "parent": "quest_giver:quest_0124_01b",
+  "reputation": 15,
+  "icon": "minecraft:map",
+  "start": {
+    "title": {
+      "text": "Uma Tarefa Humanamente Impossível!"
+    },
+    "description": {
+      "text": "Você conseguiu a benção da Orca?"
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "Obrigado!"
+    },
+    "description": {
+      "text": "Interessante... então é assim que se faz. Você é um cara legal. Estou feliz por ter te encontrado! Agora eu tenho que ir... Que Deus te abençoe."
+    }
+  },
+  "tasks": [
+    {
+		"id": "afptweaks:advancement",
+		"advancement": "alexsmobs:alexsmobs/orcas_might"
+    }
+  ],
+  "rewards": [
+   {
+      "command": "/loot give @p loot minecraft:hunter1",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/addreputation reputation:villager @p 3",
+      "id": "quest_giver:command"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 13,
+  "icon": "minecraft:arrow",
+  "start": {
+    "title": {
+      "text": "Ajuda"
+    },
+    "description": {
+      "text": "Ouvi coisas boas sobre você. Preciso que você me consiga alguns produtos exóticos, especificamente:: $(red)pele de leão$(). Preciso de 4 desses. Volte quando tiver a mercadoria."
+    }
+  }
+}

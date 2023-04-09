@@ -1,0 +1,48 @@
+{
+  "parent": "quest_giver:quest_0014_05",
+  "reputation": 10,
+  "icon": "minecraft:iron_sword",
+  "start": {
+    "title": {
+      "text": "Caminho para os Portadores dos Olhos"
+    },
+    "description": {
+      "text": "Hm... o Nove Caudas não é exatamente um humano. Bem, você saberá quando a vir."
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "Caminho para os Portadores dos Olhos"
+    },
+    "description": {
+      "text": "Hmmph... Nem estou mais surpreso. Bom trabalho. O Nove Caudas era um espírito notoriamente violento... Não tenho ideia do por que decidiu se aposentar em um celeiro abandonado. De qualquer forma, aqui está o paradeiro do próximo portador dos olhos. Cuidado, esse não vai ser como os que você enfrentou anteriormente."
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "endrem:exotic_eye"
+      },
+      "id": "quest_giver:item_pickup",
+      "times": 1
+    }
+  ],
+  "rewards": [
+    {
+      "command": "/loot give @p loot minecraft:guildmaster4",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/pmmo admin @p add magic level 1",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/pmmo admin @p add smithing level 1",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/advancement grant @p only simple_mobs:nine_tails_quest_complete",
+      "id": "quest_giver:command"
+    }    
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "reputation": 14,
+  "icon": "minecraft:book",
+  "start": {
+    "title": {
+      "text": "Ei!"
+    },
+    "description": {
+      "text": "Saudações. Odiaria incomodá-lo, mas poderia me dar uma mãozinha?"
+    }
+  }
+}

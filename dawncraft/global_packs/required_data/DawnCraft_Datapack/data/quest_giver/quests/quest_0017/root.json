@@ -1,0 +1,12 @@
+{
+  "reputation": 0,
+  "icon": "minecraft:poppy",
+  "start": {
+    "title": {
+      "text": "Ei!"
+    },
+    "description": {
+      "text": "Você pode pegar para mim uma $(red)Erva Daninha das Almas$()? Ela pode ser encontrada na dimensão do Nether."
+    }
+  }
+}

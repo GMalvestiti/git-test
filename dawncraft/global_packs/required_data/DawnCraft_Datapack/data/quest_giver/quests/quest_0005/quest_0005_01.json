@@ -1,0 +1,43 @@
+{
+  "parent": "quest_giver:quest_0005_01b",
+  "reputation": 4,
+  "icon": "minecraft:wheat_seeds",
+  "start": {
+    "title": {
+      "text": "Então?"
+    },
+    "description": {
+      "text": "Você conseguiu os $(red)8 ossos$()?"
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "Obrigado!"
+    },
+    "description": {
+      "text": "Ótimo! Agora minhas plantações crescerão mais rápido que as dos outros agricultores! Haha! Bem, obrigado, caro senhor, aqui está uma esmeralda."
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "minecraft:bone"
+      },
+      "id": "quest_giver:gift",
+      "times": 8
+    }
+  ],
+  "rewards": [
+    {
+      "command": "/addreputation reputation:villager @p 3",
+      "id": "quest_giver:command"
+    },
+    {
+      "item": {
+        "item": "minecraft:emerald"
+      },
+      "id": "quest_giver:item",
+      "times": 1
+    }
+  ]
+}

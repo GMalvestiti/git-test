@@ -1,0 +1,12 @@
+{
+  "reputation": 19,
+  "icon": "minecraft:iron_pickaxe",
+  "start": {
+    "title": {
+      "text": "Ei!"
+    },
+    "description": {
+      "text": "O Guardião do End guarda um item muito importante. Você gostaria de saber onde isso fica?"
+    }
+  }
+}

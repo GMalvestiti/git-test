@@ -1,0 +1,29 @@
+{
+  "parent": "quest_giver:quest_0014_09",
+  "reputation": 10,
+  "icon": "minecraft:ender_pearl",
+  "start": {
+    "title": {
+      "text": "O Fim do Caminho"
+    },
+    "description": {
+      "text": "Eu não tenho mais informações para lhe dar, meu amigo. Siga seu chamado."
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "O End... é apenas o Começo??"
+    },
+    "description": {
+      "text": "Então... você derrotou o dragão. Suponho que isso o tornaria o novo governante do reino. Parabéns, bravo conquistador. Você fez... tudo o que podia. Agora, se me der licença."
+    }
+  },
+  "tasks": [
+    {
+		"id": "afptweaks:advancement",
+		"advancement": "minecraft:end/kill_dragon"
+    }
+  ],
+  "rewards": [
+  ]
+}

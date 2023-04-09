@@ -1,0 +1,43 @@
+{
+  "parent": "quest_giver:quest_0123_01b",
+  "reputation": 16,
+  "icon": "minecraft:iron_pickaxe",
+  "start": {
+    "title": {
+      "text": "Sculk"
+    },
+    "description": {
+      "text": "Ah, ai está você! Conseguiu o $(red)Sensor Sculk$() que te pedi?"
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "Obrigado!"
+    },
+    "description": {
+      "text": "Isso é bem bizarro... Você encontrou o Warden? Bem, aparentemente não já que você ainda está vivo. Bem, de qualquer forma, aqui está a sua recompensa. Este item deve mantê-lo a salvo desses slimes insignificantes."
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "wildbackport:sculk_shrieker"
+      },
+      "id": "quest_giver:gift",
+      "times": 1
+    }
+  ],
+  "rewards": [
+    {
+      "item": {
+        "item": "dannys_expansion:gelatinous_diplomacy"
+      },
+      "id": "quest_giver:item",
+      "times": 1
+    },
+    {
+      "command": "/advancement grant @p only custom:trade_miner",
+      "id": "quest_giver:command"
+    }
+  ]
+}

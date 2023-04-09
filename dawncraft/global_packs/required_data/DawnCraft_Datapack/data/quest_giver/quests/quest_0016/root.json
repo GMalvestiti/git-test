@@ -1,0 +1,12 @@
+{
+  "reputation": 3,
+  "icon": "minecraft:redstone",
+  "start": {
+    "title": {
+      "text": "Ei!"
+    },
+    "description": {
+      "text": "Olá, estou precisando de algumas peças para consertar minha máquina. Você pode pegar para mim $(red)uma alavanca e uma chave inglesa de cobre$()?"
+    }
+  }
+}

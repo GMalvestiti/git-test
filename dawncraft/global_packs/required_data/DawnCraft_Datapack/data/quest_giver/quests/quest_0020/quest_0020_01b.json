@@ -1,0 +1,13 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 16,
+  "icon": "minecraft:iron_pickaxe",
+  "start": {
+    "title": {
+      "text": "Ajuda"
+    },
+    "description": {
+      "text": "Um aventureiro como você me pediu um favor há algum tempo. Eu não pude realmente ajudá-lo... Mas talvez você possa. Traga-me um pedaço de papel. Eu desenharei um mapa para a localização dele."
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "reputation": 10,
+  "icon": "minecraft:arrow",
+  "start": {
+    "title": {
+      "text": "Ei!"
+    },
+    "description": {
+      "text": "Estou ensinando a usar a bancada de arco e flecha por meras 10 esmeraldas. O que você me diz?"
+    }
+  }
+}

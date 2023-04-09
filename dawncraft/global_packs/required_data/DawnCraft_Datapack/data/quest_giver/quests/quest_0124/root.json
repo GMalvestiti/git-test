@@ -1,0 +1,12 @@
+{
+  "reputation": 2,
+  "icon": "minecraft:map",
+  "start": {
+    "title": {
+      "text": "Ei cara!"
+    },
+    "description": {
+      "text": "Companheiro. Este lugar está me matando de tédio... Vamos conversar? Você não vai se arrepender."
+    }
+  }
+}

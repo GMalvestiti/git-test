@@ -1,0 +1,13 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 5,
+  "icon": "minecraft:wooden_sword",
+  "start": {
+    "title": {
+      "text": "Me traga uma coisa!"
+    },
+    "description": {
+      "text": "Eu preciso de uma coisa! Você poderia me ajudar a conseguir $(red)4 barras de ferro$()? Estou ficando sem materiais para fazer armaduras... Um dia eu vou te pagar, eu prometo!!"
+    }
+  }
+}
